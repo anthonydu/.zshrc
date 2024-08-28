@@ -8,9 +8,7 @@ alias pip-allow-global="export PIP_REQUIRE_VIRTUALENV=false"
 
 alias pip-create-requirements="pip freeze > requirements.txt"
 
-alias lisa="ls -a"
-
-alias pdm-venv-activate="eval $(pdm venv activate)"
+export DOCKER_DEFAULT_PLATFORM=linux/amd64
 
 # zoxide
 alias cd=z
